@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-color: dimgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin: 2rem auto 2rem auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+@media(max-width: 600px) {
+    html, body {
+        font-size: 60%;
+        padding: 1rem;
+    }
+}
+
+img {
+    width: 100%;
+    max-width: 700px;
+}
+
+.color1 {
+    color: #ece7f2 
+}
+
+.color2 {
+    color: #d0d1e6
+}
+
+.color3 {
+    color: #a6bddb
+}
+
+.color4 {
+    color: #74a9cf
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
